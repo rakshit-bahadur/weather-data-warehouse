@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: raw
+    description: Raw tables written by the Python loader (ingestion/fetch_weather.py).
+    schema: raw
+    tables:
+      - name: weather_daily
+        description: One row per city per day, as returned by the Open-Meteo Archive API.
+        loaded_at_field: loaded_at
+        columns:
+          - name: city
+            tests: [not_null]
+          - name: weather_date
+            tests: [not_null]
+      - name: load_audit
+        description: One row per city per loader run, with row counts and status.

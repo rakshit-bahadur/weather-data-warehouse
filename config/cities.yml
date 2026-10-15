@@ -1,0 +1,21 @@
+cities:
+  - {city: Delhi, state: Delhi, latitude: 28.6139, longitude: 77.2090}
+  - {city: Mumbai, state: Maharashtra, latitude: 19.0760, longitude: 72.8777}
+  - {city: Bengaluru, state: Karnataka, latitude: 12.9716, longitude: 77.5946}
+  - {city: Chennai, state: Tamil Nadu, latitude: 13.0827, longitude: 80.2707}
+  - {city: Kolkata, state: West Bengal, latitude: 22.5726, longitude: 88.3639}
+  - {city: Hyderabad, state: Telangana, latitude: 17.3850, longitude: 78.4867}
+  - {city: Pune, state: Maharashtra, latitude: 18.5204, longitude: 73.8567}
+  - {city: Ahmedabad, state: Gujarat, latitude: 23.0225, longitude: 72.5714}
+  - {city: Jaipur, state: Rajasthan, latitude: 26.9124, longitude: 75.7873}
+  - {city: Lucknow, state: Uttar Pradesh, latitude: 26.8467, longitude: 80.9462}
+  - {city: Patna, state: Bihar, latitude: 25.5941, longitude: 85.1376}
+  - {city: Bhopal, state: Madhya Pradesh, latitude: 23.2599, longitude: 77.4126}
+  - {city: Chandigarh, state: Chandigarh, latitude: 30.7333, longitude: 76.7794}
+  - {city: Guwahati, state: Assam, latitude: 26.1445, longitude: 91.7362}
+  - {city: Bhubaneswar, state: Odisha, latitude: 20.2961, longitude: 85.8245}
+  - {city: Kochi, state: Kerala, latitude: 9.9312, longitude: 76.2673}
+  - {city: Srinagar, state: Jammu and Kashmir, latitude: 34.0837, longitude: 74.7973}
+  - {city: Shimla, state: Himachal Pradesh, latitude: 31.1048, longitude: 77.1734}
+  - {city: Goa, state: Goa, latitude: 15.4909, longitude: 73.8278}
+  - {city: Visakhapatnam, state: Andhra Pradesh, latitude: 17.6868, longitude: 83.2185}

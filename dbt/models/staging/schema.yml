@@ -1,0 +1,29 @@
+version: 2
+
+models:
+  - name: stg_weather_daily
+    description: Deduplicated and typed daily weather, one row per city per day.
+    columns:
+      - name: weather_day_id
+        description: Hash of city and weather_date.
+        tests: [unique, not_null]
+      - name: city
+        tests: [not_null]
+      - name: weather_date
+        tests: [not_null]
+      - name: temp_mean_c
+        tests:
+          - not_null
+          - value_in_range:
+              min_value: -40
+              max_value: 55
+      - name: humidity_pct
+        tests:
+          - value_in_range:
+              min_value: 0
+              max_value: 100
+      - name: rain_mm
+        tests:
+          - value_in_range:
+              min_value: 0
+              max_value: 1000
